@@ -1,3 +1,7 @@
+import interfaces.IAdd;
+import interfaces.IGetBalance;
+import interfaces.IWriteOff;
+
 public class CreditCard extends Bank implements IAdd, IGetBalance, IWriteOff {
 
     private double interestRate;

@@ -13,7 +13,7 @@ public class DebitCardTests {
         debitCard = new DebitCard("Visa", "BYN", 1255.0);
     }
 
-    @Test
+    @Test()
     public void checkDebitCardName() {
         String name = "Visa";
         String actualName = debitCard.getName();

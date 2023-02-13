@@ -1,3 +1,7 @@
+import interfaces.IAdd;
+import interfaces.ICloseDeposit;
+import interfaces.IGetBalance;
+
 public class Deposit extends Bank implements ICloseDeposit, IAdd, IGetBalance {
     public Deposit(String name, String currency, double balance) {
         super(name, currency, balance);

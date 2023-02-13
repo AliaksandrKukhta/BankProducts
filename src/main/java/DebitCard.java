@@ -1,3 +1,7 @@
+import interfaces.IAdd;
+import interfaces.IGetBalance;
+import interfaces.IWriteOff;
+
 public class DebitCard extends Bank implements IAdd, IGetBalance, IWriteOff {
 
     public DebitCard(String name,  double balance) {
